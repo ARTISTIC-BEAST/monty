@@ -1,5 +1,6 @@
 #ifndef MONTY
 #define MONTY
+#define  _POSIX_C_SOURCE 200809L
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +10,7 @@
 #include <fcntl.h>
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
- * @n: integer
+ * @n: integier
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
  *
